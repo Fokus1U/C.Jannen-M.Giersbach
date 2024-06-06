@@ -1,0 +1,328 @@
+
+
+/* Schriftarten
+########################################################
+
+Khula: CSS classes -> Blogtext verwendung in langen Texten
+
+.khula-light {
+  font-family: "Khula", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.khula-regular {
+  font-family: "Khula", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.khula-semibold {
+  font-family: "Khula", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.khula-bold {
+  font-family: "Khula", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.khula-extrabold {
+  font-family: "Khula", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+##############################################################
+
+
+Archivo: CSS class for a variable style -> Kreativeschrift für Aufmerksamkeit - möglich als Unterüberschrift
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.archivo-<uniquifier> {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#################################################################
+
+Roboto: CSS classes -> Überschriften und rechtliche Dokumente - verfälschungssicheres lesen
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+######################################################
+
+______________________________________________________
+Farbpalette
+______________________________________________________
+
+
+
+#A03232 -> Unternehmenshauptfarbe - dunkeles Rot
+#fcf6f6 -> Hintergrundfarbe - Cremeweiß
+#1b4904 -> Akzentfarbe - sparsam nutzen - dunkles Grün
+
+*/
+
+
+/* Style für Kontaktformular */
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #fcf6f6;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    display: inline-block;
+    background: #A03232;
+    color: #fcf6f6;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1b4904;
+}
+
+#response {
+    margin-top: 35px;
+    font-size: 36px;
+}
+
+#response.success {
+    color: green;
+}
+
+#response.error {
+    color: red;
+}
+
+/* Ende Style Kontaktformular */
+
+/* Schriftarten */
+.khula-light {
+    font-family: "Khula", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .khula-regular {
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .khula-semibold {
+    font-family: "Khula", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .khula-bold {
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .khula-extrabold {
+    font-family: "Khula", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .archivo-kreative {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /* Hover effekt Navbar */
+
+  .navText{
+    color:#fcf6f6 ;
+  }
+  .navText:hover{
+    color: #1b4904;
+  }
+
+
+
