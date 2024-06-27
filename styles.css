@@ -143,6 +143,17 @@ ______________________________________________________
 
 /* Style für Kontaktformular */
 
+:root {
+  --hauptfarbe: #A03232;
+  --hintergrundfarbe: #fcf6f6;
+  --akzentfarbe: #1b4904;
+}
+
+.name{
+  color: var(--hintergrundfarbe);
+}
+
+
 form h2 {
     margin-bottom: 20px;
     font-size: 24px;
@@ -173,7 +184,7 @@ form h2 {
     height: 100px;
 }
 
-button {
+.button {
     display: inline-block;
     background: #A03232;
     color: #fcf6f6;
@@ -181,11 +192,12 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 19px;
 }
 
-button:hover {
+.button:hover {
     background: #1b4904;
+    color: var(--hintergrundfarbe);
 }
 
 #response {
